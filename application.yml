@@ -1,0 +1,14 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microserviceloud-config-atguigu-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microserviceloud-config-atguigu-test

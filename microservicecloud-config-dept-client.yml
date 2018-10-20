@@ -30,11 +30,11 @@ eureka:
     client:
       service-url:
         defoutZooe: http://eureka7001.com:7001/eureka
-      instance:
-        instance-id: dept-8001.com
-        prefer-ip-address: true
+    instance:
+       instance-id: dept-8001.com
+       prefer-ip-address: true
 
-  info:
+info:
     app.name: atguigu-microservicecloud
     company.name: www.atguigu.com
     build.artifactId: @project.artifactId@
@@ -69,11 +69,11 @@ eureka:
     client:
       service-url:
         defoutZooe: http://eureka7001.com:7001/eureka
-      instance:
+    instance:
         instance-id: dept-8001.com
         prefer-ip-address: true
 
-  info:
+info:
     app.name: atguigu-microservicecloud
     company.name: www.atguigu.com
     build.artifactId: @project.artifactId@

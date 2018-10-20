@@ -34,11 +34,6 @@ eureka:
        instance-id: dept-8001.com
        prefer-ip-address: true
 
-info:
-    app.name: atguigu-microservicecloud
-    company.name: www.atguigu.com
-    build.artifactId: @project.artifactId@
-    build.version: @project.version@
 
 ---
 
@@ -72,9 +67,3 @@ eureka:
     instance:
         instance-id: dept-8001.com
         prefer-ip-address: true
-
-info:
-    app.name: atguigu-microservicecloud
-    company.name: www.atguigu.com
-    build.artifactId: @project.artifactId@
-    build.version: @project.version@
